@@ -3,7 +3,7 @@
   # uses: release-drafter/release-drafter@3782ccd1a495040818a9e5d0e8bc4ed22d3b1361
   uses: release-drafter/release-drafter@v5.12.1
   with:
-    # If your workflow requires multiple release-drafter configs it be helpful to override the config-name.
+    # If your workflow requires multiple release-drafter configs it be helpful to override the config name.
 The config should still be located inside `.github` as that's where we are looking for config files.
 
     config-name: # optional, default is release-drafter.yml
